@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2023-05-16T09:09:24" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.10</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Wcbz1udabb8N" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="1GxTPHOFMnzx" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="OdDNC0A3M2Bs" name="bool"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="MmFV81lvIXdd" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="kqujGFpTGWGu" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="cpxm3x5y5gum" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="D1uzxiFl3yc5" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="DdEY8WMjVuI8" name="unsigned int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="lSbyrMzlJnDf" name="unsigned short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="gAvHDyezGS4k" name="unsigned long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="xICIniPxDcDa" name="string"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Jolf3HrY4XE9" name="donar">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="fCRLKVR3BJ7k" name="check user"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Qlgvl4zJ8OHy" name="provide receipt"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="iMAWs9jStDHV" name="donation camp">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="i7MzEEe9bsnB" name="register name">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="VaBaXV0icPTt" type="xICIniPxDcDa"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="SgabLcvoe119" name="donate blood"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="EvLUnEjpQTdC" name="acknowledgement"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="pvWoWHhsizNP" name="blood camp">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="0wWXZBbVAIpO" name="send blood for testing and storing"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="p9a4LgMQk2jA" name="give order for blood"/>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="YT8JB51yuO9E" name="acknowledgement"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="rpJc819y669G" name="hospital">
+       <UML:Classifier.feature>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="qheNZMVoBBO3" name="provide blood "/>
+       </UML:Classifier.feature>
+      </UML:Class>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="UIoGH0C3JAf0" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="0" showstereotype="1" name="blood bank registeration" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" autoincrementsequence="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="0HndUWKM5iey" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="0" showstereotype="1" name="blood bank registeration system" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="87" canvaswidth="212" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" autoincrementsequence="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="2GNcyiFxJvoS" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <notewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-398" showstereotype="1" y="-358" text="login&#xa;" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ecndD5PBNi73" width="60" isinstance="0" noteType="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="3m173kC3bKV8" height="30"/>
+         <notewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-246" showstereotype="1" y="-415" text="login&#xa;" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="ZYKIqOc2IXiC" width="60" isinstance="0" noteType="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="ER9Yb3XxjMhW" height="30"/>
+        </widgets>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="0" showstereotype="1" name="blood bank registeration" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="512" canvaswidth="157" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="IVh7C2ijb3nn" documentation="" showscope="1" snapgrid="0" showatts="1" type="5">
+        <widgets>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-162" showstereotype="1" y="-218" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="2F2p7bFiNxZf" statename="State" statetype="0" width="10" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="sg8vgw16PrmB" documentation="" height="10">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-184" showstereotype="1" y="-175" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="kELng1UH1RiE" statename="login" statetype="1" width="41" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="3tahkTdcLstD" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-212" showstereotype="1" y="-129" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="Tu07RcDLh0rY" statename="donar registeration" statetype="1" width="120" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="LulHAnTzQyBm" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-204" showstereotype="1" y="-75" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="aff53V39bjMB" statename="donar checking" statetype="1" width="98" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="1TSpv0crB6rH" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-192" showstereotype="1" y="-18" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="0KKikOwgHeLV" statename="take blood" statetype="1" width="70" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="xd75xclJwU9n" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-211" showstereotype="1" y="47" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="SSI0Ak6SFA69" statename="test and process blood" statetype="1" width="140" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="LTBBuVkd1Pmm" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-206" showstereotype="1" y="105" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="cUAi5euttkOA" statename="send blood to blood bank" statetype="1" width="151" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="SrWU8lyzMwO1" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-176" showstereotype="1" y="159" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="wTKHyJZ8QNyx" statename="verify,store" statetype="1" width="76" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="Lv3t3THnKvEX" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-202" showstereotype="1" y="238" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="6NwEwS9UczPZ" statename="deliver to hospital" statetype="1" width="112" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="VNEAUeqTdfU8" documentation="" height="25">
+          <Activities/>
+         </statewidget>
+         <statewidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-149" showstereotype="1" y="284" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="SvWQwsyfmdkS" statename="State" statetype="2" width="10" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="R9DTNU5yhExU" documentation="" height="10">
+          <Activities/>
+         </statewidget>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="3tahkTdcLstD" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="sg8vgw16PrmB" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-162" starty="-208"/>
+           <endpoint endx="-162" endy="-175"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="LulHAnTzQyBm" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="3tahkTdcLstD" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-152" starty="-150"/>
+           <endpoint endx="-152" endy="-129"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="1TSpv0crB6rH" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="LulHAnTzQyBm" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-155" starty="-104"/>
+           <endpoint endx="-155" endy="-75"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="xd75xclJwU9n" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="1TSpv0crB6rH" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-157" starty="-50"/>
+           <endpoint endx="-157" endy="-18"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="Lv3t3THnKvEX" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="SrWU8lyzMwO1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-138" starty="130"/>
+           <endpoint endx="-138" endy="159"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="VNEAUeqTdfU8" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="Lv3t3THnKvEX" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-146" starty="184"/>
+           <endpoint endx="-146" endy="238"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="LTBBuVkd1Pmm" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="xd75xclJwU9n" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-141" starty="7"/>
+           <endpoint endx="-141" endy="47"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="SrWU8lyzMwO1" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="LTBBuVkd1Pmm" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-130.5" starty="72"/>
+           <endpoint endx="-130.5" endy="105"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget roleBdoc="" linecolor="#ff0000" indexa="1" usesdiagramfillcolor="0" widgetbid="R9DTNU5yhExU" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" roleAdoc="" widgetaid="VNEAUeqTdfU8" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" usefillcolor="1" fillcolor="#ffff00" changeabilityA="900" changeabilityB="900" documentation="" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="-144" starty="263"/>
+           <endpoint endx="-144" endy="284"/>
+          </linepath>
+         </assocwidget>
+        </associations>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="sequence diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="275" canvaswidth="532" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" autoincrementsequence="0" usefillcolor="1" fillcolor="#ffff00" zoom="152.0875" xmi.id="AxIL0r2MKjv8" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-212" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="8ZL7ntXZSuLv" width="51" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="Jolf3HrY4XE9" height="25" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-8" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="Tva9ApuiRzVj" width="101" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="iMAWs9jStDHV" height="25" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="119" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="qTSaxADuWvCt" width="84" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="pvWoWHhsizNP" height="25" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="257" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="xiZVIWED8ybn" width="63" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="rpJc819y669G" height="25" drawasactor="0"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="Tva9ApuiRzVj" textid="6XPpvnCmHSrU" operation="register name" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-186" showstereotype="1" y="127.795" widgetaid="8ZL7ntXZSuLv" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="tcEZsztmhL61" width="236" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="sEkt1ElA7Ft1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-82" showstereotype="1" y="110" text="register name" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="uqlPqp9dhhmJ" pretext="" role="704" width="74" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="6XPpvnCmHSrU" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="8ZL7ntXZSuLv" textid="oar4vZdjnqv9" operation="check user" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-194" showstereotype="1" y="149.11" widgetaid="Tva9ApuiRzVj" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="y8IQnPXFuEnO" width="236" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="wRozZ7Qy45k5" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-30" showstereotype="1" y="132" text="check user" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="DlsXGfMsovLC" pretext="" role="704" width="59" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="oar4vZdjnqv9" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="Tva9ApuiRzVj" textid="jzUiFOkNjOEi" operation="donate blood" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-186" showstereotype="1" y="174.37" widgetaid="8ZL7ntXZSuLv" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="GoI5cIaa4rtq" width="236" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="okF4hNUhOHzc" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-42" showstereotype="1" y="157" text="donate blood" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="yrpJWyDWE5bn" pretext="" role="704" width="71" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="jzUiFOkNjOEi" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="8ZL7ntXZSuLv" textid="0tz5gUcQqWPJ" operation="provide receipt" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-194" showstereotype="1" y="197" widgetaid="Tva9ApuiRzVj" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="QmPEAeYE4GLz" width="236" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="rA3xxJ06moCL" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-51" showstereotype="1" y="180" text="provide receipt" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="H0Ocmbermhkw" pretext="" role="704" width="80" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="0tz5gUcQqWPJ" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="qTSaxADuWvCt" textid="1dhnMb0wCwde" operation="send blood for testing and storing" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="42" showstereotype="1" y="217" widgetaid="Tva9ApuiRzVj" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="8NdbOxQz5Dzr" width="127" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="ceJ3ezciBA3O" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="47" showstereotype="1" y="200" text="send blood for testing and storing" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="CzrRHHVRwKbW" pretext="" role="704" width="170" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="1dhnMb0wCwde" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="Tva9ApuiRzVj" textid="qU62lXUcQvOX" operation="acknowledgement" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="34" showstereotype="1" y="237" widgetaid="qTSaxADuWvCt" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="gvorZQWaUBRI" width="127" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="LXlvxcFw9Kup" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="39" showstereotype="1" y="220" text="acknowledgement" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="ZwmE5VeHc9PI" pretext="" role="704" width="94" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="qU62lXUcQvOX" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="qTSaxADuWvCt" textid="aJuc4E9maQYV" operation="give order for blood" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="153" showstereotype="1" y="257" widgetaid="xiZVIWED8ybn" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="2kg5LHsCo0Po" width="135" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="KUNuYsPowTwN" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="158" showstereotype="1" y="240" text="give order for blood" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="4z2A0XWrRALk" pretext="" role="704" width="103" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="aJuc4E9maQYV" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="xiZVIWED8ybn" textid="HljlXhmME5ub" operation="provide blood" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="161" showstereotype="1" y="277" widgetaid="qTSaxADuWvCt" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="UIEblOJiZetc" width="135" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="VgUBvEZKcEbu" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="166" showstereotype="1" y="260" text="provide blood" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="BTUVKwAy4obM" pretext="" role="704" width="73" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="HljlXhmME5ub" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="qTSaxADuWvCt" textid="Fjf9FmGzVewb" operation="acknowledgement" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="153" showstereotype="1" y="297" widgetaid="xiZVIWED8ybn" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="Y1Y3O8gf1J53" width="135" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="klDaCostHadC" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="158" showstereotype="1" y="280" text="acknowledgement" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" localid="cskYA9GczHzD" pretext="" role="704" width="94" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="Fjf9FmGzVewb" height="17"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="AxIL0r2MKjv8" uniqueid="YT8JB51yuO9E" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component View"/>
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="836" id="Entity Relationship Model"/>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="0" type="808" id="IVh7C2ijb3nn" label="blood bank registeration"/>
+     <listitem open="0" type="810" id="0HndUWKM5iey" label="blood bank registeration"/>
+     <listitem open="0" type="810" id="2GNcyiFxJvoS" label="blood bank registeration system"/>
+     <listitem open="1" type="813" id="pvWoWHhsizNP">
+      <listitem open="0" type="815" id="YT8JB51yuO9E"/>
+      <listitem open="0" type="815" id="p9a4LgMQk2jA"/>
+      <listitem open="0" type="815" id="0wWXZBbVAIpO"/>
+     </listitem>
+     <listitem open="0" type="807" id="UIoGH0C3JAf0" label="class diagram"/>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="OdDNC0A3M2Bs"/>
+      <listitem open="1" type="829" id="1GxTPHOFMnzx"/>
+      <listitem open="1" type="829" id="kqujGFpTGWGu"/>
+      <listitem open="1" type="829" id="MmFV81lvIXdd"/>
+      <listitem open="1" type="829" id="Wcbz1udabb8N"/>
+      <listitem open="1" type="829" id="D1uzxiFl3yc5"/>
+      <listitem open="1" type="829" id="cpxm3x5y5gum"/>
+      <listitem open="1" type="829" id="xICIniPxDcDa"/>
+      <listitem open="1" type="829" id="DdEY8WMjVuI8"/>
+      <listitem open="1" type="829" id="gAvHDyezGS4k"/>
+      <listitem open="1" type="829" id="lSbyrMzlJnDf"/>
+     </listitem>
+     <listitem open="1" type="813" id="Jolf3HrY4XE9">
+      <listitem open="0" type="815" id="fCRLKVR3BJ7k"/>
+      <listitem open="0" type="815" id="Qlgvl4zJ8OHy"/>
+     </listitem>
+     <listitem open="1" type="813" id="iMAWs9jStDHV">
+      <listitem open="0" type="815" id="EvLUnEjpQTdC"/>
+      <listitem open="0" type="815" id="SgabLcvoe119"/>
+      <listitem open="0" type="815" id="i7MzEEe9bsnB"/>
+     </listitem>
+     <listitem open="1" type="813" id="rpJc819y669G">
+      <listitem open="0" type="815" id="qheNZMVoBBO3"/>
+     </listitem>
+     <listitem open="0" type="810" id="AxIL0r2MKjv8" label="sequence diagram"/>
+    </listitem>
+    <listitem open="1" type="802" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
